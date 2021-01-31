@@ -14,6 +14,8 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
       fetchAPI();
    }, []);
 
+   dailyData.reverse();
+
    const lineChart = dailyData[0] ? (
       <Line
          data={{
@@ -43,6 +45,9 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
                //    fill: true,
                // },
             ],
+         }}
+         options={{
+            order: 5,
          }}
       />
    ) : null;
