@@ -3,7 +3,8 @@
 > A simple COVID-19 tracker that displays number of infections, recoveries, and resulting deaths by country to date.
 
 Live Demo [here](https://covid-19-tracker-sand.vercel.app/)
-<img src="./src/images/covid-19-tracker.jpeg" width=400>
+
+<img src="./src/images/covid-19-tracker.jpeg" width=400 style="display: block;">
 
 ## Available Scripts
 
